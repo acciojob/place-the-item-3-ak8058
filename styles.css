@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	gap:20px;
+}
+.item{
+	width:300px;
+	height:300px;
+	border:1px solid black;
+	box-sizing:border-box;
+	flex: 1 1 30%;
+}
